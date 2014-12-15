@@ -157,7 +157,7 @@ Suites.push({
     url: 'todomvc/flux-react/index.html',
     version: '0.12.0',
     prepare: function (runner, contentWindow, contentDocument) {
-        contentWindow.Utils.store = function () {}
+        //contentWindow.Utils.store = function () {}
         return runner.waitForElement('#new-todo').then(function (element) {
             element.focus();
             return element;
