@@ -1,4 +1,8 @@
 # TodoMVC Performance Comparison
+This repository was forked from https://github.com/evancz/todomvc-perf-comparison/ , and I modified:
+
++ version up AngularJS
++ add [Facebook flux React](https://github.com/facebook/flux/tree/master/examples/flux-todomvc) to test suite
 
 Both Mercury and Elm are based on the [virtual-dom][] project which appears to
 be extremely fast.

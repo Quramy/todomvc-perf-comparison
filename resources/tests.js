@@ -153,7 +153,7 @@ Suites.push({
 });
 
 Suites.push({
-    name: 'Flux React',
+    name: 'Flux+React',
     url: 'todomvc/flux-react/index.html',
     version: '0.12.0',
     prepare: function (runner, contentWindow, contentDocument) {
